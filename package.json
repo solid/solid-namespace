@@ -1,0 +1,39 @@
+{
+  "name": "solid-namespace",
+  "version": "0.0.1",
+  "description": "A collection of common RDF namespaces used in the Solid project",
+  "main": "./index.js",
+  "scripts": {
+    "standard": "standard src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solid/solid-namespace"
+  },
+  "keywords": [
+    "solid",
+    "decentralized",
+    "web",
+    "rdf",
+    "ldp",
+    "linked",
+    "data",
+    "ontology",
+    "rest"
+  ],
+  "author": "Dmitri Zagidulin <dzagidulin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solid/solid-namespace/issues"
+  },
+  "homepage": "https://github.com/solid/solid-namespace",
+  "dependencies": {
+    "rdf-ns": "^0.1.0"
+  },
+  "devDependencies": {
+  },
+  "standard": {
+    "globals": [
+    ]
+  }
+}
