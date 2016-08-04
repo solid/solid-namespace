@@ -20,6 +20,7 @@ function vocab (rdf) {
   var vocabMap = {
     'acl': ns.base('http://www.w3.org/ns/auth/acl#'),
     'app': ns.base('http://www.w3.org/ns/solid/app#'),
+    'cert': ns.base('http://www.w3.org/ns/auth/cert#'),
     'dct': ns.base('http://purl.org/dc/terms/'),
     'foaf': ns.base('http://xmlns.com/foaf/0.1/'),
     'ldp': ns.base('http://www.w3.org/ns/ldp#'),
@@ -30,6 +31,7 @@ function vocab (rdf) {
     'schema': ns.base('http://schema.org/'),
     'sioc': ns.base('http://rdfs.org/sioc/ns#'),
     'solid': ns.base('http://www.w3.org/ns/solid/terms#'),
+    'stat': ns.base('http://www.w3.org/ns/posix/stat#'),
     'vcard': ns.base('http://www.w3.org/2006/vcard/ns#'),
     'xsd': ns.base('http://www.w3.org/2001/XMLSchema#')
   }
