@@ -1,6 +1,6 @@
 {
   "name": "solid-namespace",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A collection of common RDF namespaces used in the Solid project",
   "main": "./index.js",
   "scripts": {
@@ -30,10 +30,8 @@
   "dependencies": {
     "rdf-ns": "^0.1.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "standard": {
-    "globals": [
-    ]
+    "globals": []
   }
 }
