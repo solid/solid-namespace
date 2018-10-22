@@ -55,15 +55,16 @@ const aliases = {
 /**
  * @param [rdflib] {RDF} Optional RDF Library (such as rdflib.js or rdf-ext) to inject
  */
-function vocab (rdflib) {
-  // If we're given a library then return a map of Namespaces instead of simple strings
-  if (rdflib && 'Namespace' in rdflib) {
-    Object.keys(aliases).map(function (key, index) {
-      aliases[key] = rdflib.Namespace(aliases[key])
-    })
-  }
+function vocab (rdf = { namedNode: u => u }) {
+  const namespaces = {}
+  for (const alias in aliases) {
+    const expansion = aliases[alias]
+    namespaces[alias] = function (localName = '') {
+      return rdf.namedNode(expansion + localName)
+    }
+  };
 
-  return aliases
-}
+  return namespaces
+};
 
 module.exports = vocab
