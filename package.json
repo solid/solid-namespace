@@ -31,12 +31,7 @@
     "url": "https://github.com/solid/solid-namespace/issues"
   },
   "homepage": "https://github.com/solid/solid-namespace",
-  "dependencies": {
-    "rdf": "^4.0.1"
-  },
-  "devDependencies": {
-    "standard": "^12.0.1"
-  },
+  "dependencies": {},
   "standard": {
     "globals": []
   }

@@ -4,17 +4,34 @@
 
 A collection of common RDF namespaces used in the Solid project.
 
-solid-namespace is meant to be used with [rdflib.js](/linkeddata/rdflib.js). It exports a collection of `NamedNode` values for commonly used namespaces, thereby shortcutting the need to call `$rdf.namespace(...)`.
+solid-namespace can be used with any RDF/JS-compatible library (e.g. [rdflib.js](/linkeddata/rdflib.js)). 
+
 
 ## Usage
 
+You can use this library in two ways. 
+
+1. With a RDF JS library to get NamedNodes
+2. Without a library to get url strings
+
+### With a rdf library
+
+If a rdf library is provided then the map of namespaces given will be the result of calling `rdflib.Namespace` on the namespace urls.
+
 ```js
 const $rdf = require('rdflib');
-const ns = require('solid-namespace');
+const ns = require('solid-namespace')($rdf);
 const store = $rdf.graph();
     
 let me = ...;
-let name = store.any(me, ns.vcard(‘fn’)) || store.any(me, ns.foaf(‘name’));
+let name = store.any(me, ns.vcard('fn')) || store.any(me, ns.foaf('name'));
 
-console.log(ns.foaf); // -> NamedNode(<http://xmlns.com/foaf/0.1/name>)
+console.log(ns.foaf('name')); // -> NamedNode(<http://xmlns.com/foaf/0.1/name>)
+```
+
+### Without a rdf library
+
+```js
+const ns = require('solid-namespace')();
+console.log(ns.foaf('name')); // -> "http://xmlns.com/foaf/0.1/name"
 ```
