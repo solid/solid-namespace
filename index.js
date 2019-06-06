@@ -50,7 +50,7 @@ const aliases = {
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   wf: 'http://www.w3.org/2005/01/wf/flow#',
   xsd: 'http://www.w3.org/2001/XMLSchema#',
-  cco: 'http://www.ontologyrepository.com/CommonCoreOntology/'
+  cco: 'http://www.ontologyrepository.com/CommonCoreOntologies/'
 }
 
 /**
