@@ -49,7 +49,8 @@ const aliases = {
   ui: 'http://www.w3.org/ns/ui#',
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   wf: 'http://www.w3.org/2005/01/wf/flow#',
-  xsd: 'http://www.w3.org/2001/XMLSchema#'
+  xsd: 'http://www.w3.org/2001/XMLSchema#',
+  cco: 'http://www.ontologyrepository.com/CommonCoreOntology/'
 }
 
 /**
