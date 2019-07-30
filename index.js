@@ -16,6 +16,7 @@
 const aliases = {
   acl: 'http://www.w3.org/ns/auth/acl#',
   arg: 'http://www.w3.org/ns/pim/arg#',
+  as: 'https://www.w3.org/ns/activitystreams#',
   cal: 'http://www.w3.org/2002/12/cal/ical#',
   contact: 'http://www.w3.org/2000/10/swap/pim/contact#',
   dc: 'http://purl.org/dc/elements/1.1/',
