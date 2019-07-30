@@ -40,7 +40,7 @@ const aliases = {
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
   rss: 'http://purl.org/rss/1.0/',
   sched: 'http://www.w3.org/ns/pim/schedule#',
-  schema: 'http:/schema.org/', // @@ beware confusion with documents no 303
+  schema: 'http://schema.org/', // @@ beware confusion with documents no 303
   sioc: 'http://rdfs.org/sioc/ns#',
   solid: 'http://www.w3.org/ns/solid/terms#',
   space: 'http://www.w3.org/ns/pim/space#',
