@@ -34,6 +34,7 @@ const aliases = {
   owl: 'http://www.w3.org/2002/07/owl#',
   pad: 'http://www.w3.org/ns/pim/pad#',
   patch: 'http://www.w3.org/ns/pim/patch#',
+  prov: 'http://www.w3.org/ns/prov#',
   qu: 'http://www.w3.org/2000/10/swap/pim/qif#',
   trip: 'http://www.w3.org/ns/pim/trip#',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
