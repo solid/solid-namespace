@@ -16,11 +16,11 @@ You can use this library in two ways.
 
 ### With a rdf library
 
-If a rdf library is provided then the map of namespaces given will be the result of calling `rdf.namedNode` on the namespace urls.
+If a rdf library is provided then the map of namespaces given will be the result of calling `$rdf.namedNode` on the namespace urls.
 
 ```js
-const rdf = require('rdflib');
-const ns = require('solid-namespace')(rdf);
+const $rdf = require('rdflib');
+const ns = require('solid-namespace')($rdf);
 const store = $rdf.graph();
 
 let me = ...;
