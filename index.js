@@ -18,6 +18,7 @@ const aliases = {
   arg: 'http://www.w3.org/ns/pim/arg#',
   as: 'https://www.w3.org/ns/activitystreams#',
   cal: 'http://www.w3.org/2002/12/cal/ical#',
+  cert: 'http://www.w3.org/ns/auth/cert#',
   contact: 'http://www.w3.org/2000/10/swap/pim/contact#',
   dc: 'http://purl.org/dc/elements/1.1/',
   dct: 'http://purl.org/dc/terms/',
