@@ -4,6 +4,9 @@
   "description": "A collection of common RDF namespaces used in the Solid project",
   "main": "./index.js",
   "scripts": {
+    "build": "echo nothing to build",
+    "preversion": "npm run test",
+    "postversion": "git push --follow-tags",
     "standard": "standard index.js",
     "test": "node ./test.js"
   },
