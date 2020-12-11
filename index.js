@@ -24,6 +24,8 @@ const aliases = {
   dct: 'http://purl.org/dc/terms/',
   doap: 'http://usefulinc.com/ns/doap#',
   foaf: 'http://xmlns.com/foaf/0.1/',
+  geo: 'http://www.w3.org/2003/01/geo/wgs84_pos#',
+  gpx: 'http://www.w3.org/ns/pim/gpx#',
   http: 'http://www.w3.org/2007/ont/http#',
   httph: 'http://www.w3.org/2007/ont/httph#',
   icalTZ: 'http://www.w3.org/2002/12/cal/icaltzd#', // Beware: not cal:
