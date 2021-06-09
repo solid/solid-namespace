@@ -34,6 +34,7 @@ const aliases = {
   log: 'http://www.w3.org/2000/10/swap/log#',
   meeting: 'http://www.w3.org/ns/pim/meeting#',
   mo: 'http://purl.org/ontology/mo/',
+  org: 'http://www.w3.org/ns/org#',
   owl: 'http://www.w3.org/2002/07/owl#',
   pad: 'http://www.w3.org/ns/pim/pad#',
   patch: 'http://www.w3.org/ns/pim/patch#',
