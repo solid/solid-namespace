@@ -59,7 +59,6 @@ const aliases = {
   cco: 'http://www.ontologyrepository.com/CommonCoreOntologies/',
   skos: 'http://www.w3.org/2004/02/skos/core#',
   bookmark: 'http://www.w3.org/2002/01/bookmark#',
-  sparql: 'http://ontologi.es/sparql',
   vann: 'http://purl.org/vocab/vann/'
 }
 
