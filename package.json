@@ -1,6 +1,6 @@
 {
   "name": "solid-namespace",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "A collection of common RDF namespaces used in the Solid project",
   "main": "./index.js",
   "scripts": {
