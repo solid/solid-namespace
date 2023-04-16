@@ -35,11 +35,10 @@
     "url": "https://github.com/solid/solid-namespace/issues"
   },
   "homepage": "https://github.com/solid/solid-namespace",
-  "dependencies": {},
+  "dependencies": {
+    "standard": "^17.0.0"
+  },
   "standard": {
     "globals": []
-  },
-  "devDependencies": {
-    "eslint": "^7.32.0"
   }
 }
