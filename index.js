@@ -17,7 +17,9 @@ const aliases = {
   acl: 'http://www.w3.org/ns/auth/acl#',
   arg: 'http://www.w3.org/ns/pim/arg#',
   as: 'https://www.w3.org/ns/activitystreams#',
+  bookmark: 'http://www.w3.org/2002/01/bookmark#',
   cal: 'http://www.w3.org/2002/12/cal/ical#',
+  cco: 'http://www.ontologyrepository.com/CommonCoreOntologies/',
   cert: 'http://www.w3.org/ns/auth/cert#',
   contact: 'http://www.w3.org/2000/10/swap/pim/contact#',
   dc: 'http://purl.org/dc/elements/1.1/',
@@ -26,6 +28,7 @@ const aliases = {
   foaf: 'http://xmlns.com/foaf/0.1/',
   geo: 'http://www.w3.org/2003/01/geo/wgs84_pos#',
   gpx: 'http://www.w3.org/ns/pim/gpx#',
+  gr: 'http://purl.org/goodrelations/v1#',
   http: 'http://www.w3.org/2007/ont/http#',
   httph: 'http://www.w3.org/2007/ont/httph#',
   icalTZ: 'http://www.w3.org/2002/12/cal/icaltzd#', // Beware: not cal:
@@ -39,6 +42,7 @@ const aliases = {
   pad: 'http://www.w3.org/ns/pim/pad#',
   patch: 'http://www.w3.org/ns/pim/patch#',
   prov: 'http://www.w3.org/ns/prov#',
+  pto: 'http://www.productontology.org/id/',
   qu: 'http://www.w3.org/2000/10/swap/pim/qif#',
   trip: 'http://www.w3.org/ns/pim/trip#',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
@@ -47,19 +51,17 @@ const aliases = {
   sched: 'http://www.w3.org/ns/pim/schedule#',
   schema: 'http://schema.org/', // @@ beware confusion with documents no 303
   sioc: 'http://rdfs.org/sioc/ns#',
+  skos: 'http://www.w3.org/2004/02/skos/core#',
   solid: 'http://www.w3.org/ns/solid/terms#',
   space: 'http://www.w3.org/ns/pim/space#',
   stat: 'http://www.w3.org/ns/posix/stat#',
   tab: 'http://www.w3.org/2007/ont/link#',
   tabont: 'http://www.w3.org/2007/ont/link#',
   ui: 'http://www.w3.org/ns/ui#',
+  vann: 'http://purl.org/vocab/vann/'
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   wf: 'http://www.w3.org/2005/01/wf/flow#',
   xsd: 'http://www.w3.org/2001/XMLSchema#',
-  cco: 'http://www.ontologyrepository.com/CommonCoreOntologies/',
-  skos: 'http://www.w3.org/2004/02/skos/core#',
-  bookmark: 'http://www.w3.org/2002/01/bookmark#',
-  vann: 'http://purl.org/vocab/vann/'
 }
 
 /**
