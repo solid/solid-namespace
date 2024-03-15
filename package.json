@@ -35,7 +35,7 @@
     "url": "https://github.com/solid/solid-namespace/issues"
   },
   "homepage": "https://github.com/solid/solid-namespace",
-  "dependencies": {
+  "devDependencies": {
     "standard": "^17.0.0"
   },
   "standard": {
