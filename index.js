@@ -58,7 +58,7 @@ const aliases = {
   tab: 'http://www.w3.org/2007/ont/link#',
   tabont: 'http://www.w3.org/2007/ont/link#',
   ui: 'http://www.w3.org/ns/ui#',
-  vann: 'http://purl.org/vocab/vann/'
+  vann: 'http://purl.org/vocab/vann/',
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   wf: 'http://www.w3.org/2005/01/wf/flow#',
   xsd: 'http://www.w3.org/2001/XMLSchema#',
